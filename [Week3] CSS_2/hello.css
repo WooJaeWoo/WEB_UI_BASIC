@@ -1,0 +1,27 @@
+body, div, p, span {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+div {
+	background-color: #333;
+	width: 200px;
+	height: 100px;
+	margin: 50px 20px 15px 30px;
+	padding-left: 30px;
+}
+
+p {
+	margin: 30px 10px;
+	border: 1px solid red;
+	padding: 5px 20px;
+	line-height: auto;
+}
+
+span {
+	margin: 5px 10px;
+	margin-top: 100px;
+	border: 1px solid blue;
+	padding: 10px 20px;
+}

@@ -1,0 +1,38 @@
+body, div, p, h1 {
+	margin: 0 auto; border: none; padding: 0;
+}
+
+#outside {
+	margin-top: 200px;
+	width: 300px;
+	height: 200px;
+	background-color: #E6AD63;
+	text-align: center;
+}
+
+#lMargin {
+	padding: 5px;
+}
+
+#lBorder {
+	margin-top: -15px;
+}
+
+#lPadding {
+	margin-top: 15px;
+}
+
+h1 {
+	background-color: #ddd;
+	width: 80px;
+	height: 40px;
+	margin-top: 25px;
+	text-align: left;
+}
+
+#inside {
+	background-color: #A3D573;
+	width: 200px;
+	height: 110px;
+	border: 15px solid #549AD3;
+}

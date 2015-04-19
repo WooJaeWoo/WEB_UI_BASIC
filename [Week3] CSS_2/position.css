@@ -1,0 +1,39 @@
+div {
+	text-align: center;
+}
+
+#a, #b, #c {
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+	line-height: 200px;
+}
+
+#b {
+	position: relative;
+	top: 40px;
+	left: 100px;
+}
+
+#d, #e, #f {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: 2px solid blue;
+	line-height: 50px;
+}
+
+#d {
+	top: 20px;
+	left: 100px;
+}
+
+#e {
+	top: 120px;
+	left: 30px;
+}
+
+#f {
+	top: 80px;
+	left: 220px;
+}

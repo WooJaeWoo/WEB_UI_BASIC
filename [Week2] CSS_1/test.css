@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#test_div > span {
+	color: red;
+	font-size: 30px;
+}
+
+li {
+	font-size: 30px;
+	list-style: none;
+}
+
+li:nth-child(odd) {
+	color: blue;
+}
+
+li:nth-child(3) {
+	color: red;
+}
+
+li:last-child {
+	color: yellow;
+}
+
+#l2 {
+	color: blue;
+}
+
+.l3 {
+	color: purple;
+}
+
+li:active {
+	background-color: #E6AD63;
+	color: #fff;
+}
+
+
+
+1#list_div > ul > li {background-color: yellow;color: white;}
+
+
+
+
+
+
+
+
+
