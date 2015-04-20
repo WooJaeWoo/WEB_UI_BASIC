@@ -9,8 +9,7 @@ input,select,button{vertical-align:middle;outline:none}
 img{vertical-align:top}
 label,button{cursor:pointer}
 button{margin:0;padding:0}
-a{color:#222;text-decoration:none}
-a:hover{color:#390;text-decoration:underline}
+a{color:#000;text-decoration:none}
 button *{position:relative}
 button img{left:-3px;*left:auto}
 html:first-child select{height:20px;padding-right:6px}

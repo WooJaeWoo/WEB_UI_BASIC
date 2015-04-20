@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Unna);
+@import url(http://fonts.googleapis.com/css?family=Muli);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+header { font-family: 'Oswald', sans-serif; }
+h1 { font-size: 120px; font-family: 'Fjalla One', sans-serif; }
+h2 { color: #009FF8; font-family: 'Unna', serif; font-size: 16px; }
+nav li a { font-size: 15px; }
+nav li a:hover { color: #009FF8; }
+#header_3rd { color:#7E9498; }
+#header_3rd strong { font-family: 'Guardian Egyptian Web', 'Freight Text W00', Georgia, serif; font-size: 20px; }
+#header_3rd p { font-size: 12px; }
+#searchInput { display: none; }
+aside { display: none; }
+section { font-family: 'Unna', serif; font-size: 36px; }
+h4 { font-size: px; font-family: 'Open Sans', sans-serif; }
+h4:hover { color: #F77E2F;}
+article i { color: #627A7F;}
+.author { color: #F77E2F; }
+
+footer { width:100%; height: 240px; background-color: #050A0B;}
+#copyright { color: #555959; font-size: 16px; font-family: 'Muli', sans-serif;}
+#footerMenu a { color: #fff; font-size: 16px;}
