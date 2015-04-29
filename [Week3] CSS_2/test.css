@@ -1,0 +1,10 @@
+ul {
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
+
+li {
+	position: absolute;
+	
+}
