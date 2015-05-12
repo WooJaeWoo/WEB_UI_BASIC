@@ -1,0 +1,16 @@
+section {
+	height: 2000px;
+	background-color: #333;
+}
+
+#status {
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	background-color: #cd8d10;
+	text-align: center;
+}
+
+span {
+	font-size: 20px;
+}
