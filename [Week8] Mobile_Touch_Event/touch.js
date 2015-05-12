@@ -5,6 +5,7 @@ window.addEventListener('load', function(){
     document.addEventListener('touchstart', function(e){
         var touchPoint = e.changedTouches[0];
         ShowStatus(touchPoint, 'Touch Start');
+        e.preventDefault();
     }, false);
 
     document.addEventListener('touchmove', function(e){
@@ -33,6 +34,6 @@ window.addEventListener('load', function(){
                             + 'PageY: ' + py + 'px<br>'
                             + 'ScreenX: ' + sx + 'px<br>'
                             + 'ScreenY: ' + sy + 'px<br>'
-                        + '</span>'
+                        + '</span>';
     }
-});
+}, false);
