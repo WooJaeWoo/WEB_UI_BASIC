@@ -1,0 +1,30 @@
+body {
+	background-color: #eee;
+	color: #fff;
+	font-weight: 400;	
+}
+
+main {
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+}
+
+button {
+	margin: 50px 10px 0px 10px;
+	width: 80px;
+	height: 50px;
+	color: #fff;
+	font-weight: 400;
+	background-color: #42d141;
+}
+
+li {
+	margin: 30px 10px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	background-color: #1383e1;
+}
