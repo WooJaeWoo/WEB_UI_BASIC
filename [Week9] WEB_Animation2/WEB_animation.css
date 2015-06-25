@@ -1,0 +1,36 @@
+#container > div {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 408px;
+}
+
+.boxItem {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  border: 2px solid #333;
+  float: left;
+  text-align: center;
+}
+
+.boxItem span { line-height: 200px; font-size: 20px; }
+
+.boxItem.animate {
+  background-color: #FF7670;
+}
+
+.boxItem.animate span {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: smithTest;
+  animation-timing-function: linear;
+}
+
+@keyframes smithTest {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
